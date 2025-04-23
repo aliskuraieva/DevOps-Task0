@@ -1,0 +1,44 @@
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Node
+node_modules/
+dist/
+
+# Env files
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# VirtualBox / Vagrant
+*.vbox
+*.vbox-prev
+*.vdi
+*.vmdk
+.vagrant/
+
+# Others
+*.zip
+*.tar.gz
